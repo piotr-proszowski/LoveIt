@@ -8,6 +8,8 @@
         <meta name="robots" content="noodp" />
         <title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
 
+
+        {{ partial "plausible_head.html" . }}
         {{- partial "head/meta.html" . -}}
         {{- partial "head/link.html" . -}}
         {{- partial "head/seo.html" . -}}

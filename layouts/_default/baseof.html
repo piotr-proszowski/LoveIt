@@ -8,8 +8,7 @@
         <meta name="robots" content="noodp" />
         <title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
 
-
-        {{ partial "plausible_head.html" . }}
+        <script defer data-domain="proszowski.dev" src="https://analytics.proszowski.dev/js/script.js"></script>
         {{- partial "head/meta.html" . -}}
         {{- partial "head/link.html" . -}}
         {{- partial "head/seo.html" . -}}
